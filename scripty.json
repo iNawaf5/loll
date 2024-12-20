@@ -1,0 +1,15 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "XSS Demo",
+    "description": "Swagger configuration demonstrating XSS."
+  },
+  "host": "example.com",
+  "schemes": ["https"],
+  "paths": {},
+  "externalDocs": {
+    "description": "Full API documentation",
+    "url": "https://raw.githubusercontent.com/iNawaf5/loll/main/scripty.yaml"
+  }
+}
